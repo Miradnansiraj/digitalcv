@@ -54,7 +54,7 @@ class LoadJS extends React.Component{
     componentDidMount() {
         setTimeout(function() { //Start the timer
             this.setState({render: true}) //After 1 second, set render to true
-        }.bind(this), 2000)
+        }.bind(this), 1500)
       }
     render(){
         let renderContainer = false //By default don't render anything
@@ -77,7 +77,7 @@ class LoadPHP extends React.Component{
     componentDidMount() {
         setTimeout(function() { //Start the timer
             this.setState({render: true}) //After 1 second, set render to true
-        }.bind(this), 3000)
+        }.bind(this), 2000)
       }
     render(){
         let renderContainer = false //By default don't render anything
@@ -100,7 +100,7 @@ class LoadLaravel extends React.Component{
     componentDidMount() {
         setTimeout(function() { //Start the timer
             this.setState({render: true}) //After 1 second, set render to true
-        }.bind(this), 4000)
+        }.bind(this), 2500)
       }
     render(){
         let renderContainer = false //By default don't render anything
@@ -123,7 +123,7 @@ class LoadReact extends React.Component{
     componentDidMount() {
         setTimeout(function() { //Start the timer
             this.setState({render: true}) //After 1 second, set render to true
-        }.bind(this), 5000)
+        }.bind(this), 3000)
       }
     render(){
         let renderContainer = false //By default don't render anything
@@ -146,7 +146,7 @@ class LoadVue extends React.Component{
     componentDidMount() {
         setTimeout(function() { //Start the timer
             this.setState({render: true}) //After 1 second, set render to true
-        }.bind(this), 6000)
+        }.bind(this), 3500)
       }
     render(){
         let renderContainer = false //By default don't render anything
@@ -169,7 +169,7 @@ class LoadBS extends React.Component{
     componentDidMount() {
         setTimeout(function() { //Start the timer
             this.setState({render: true}) //After 1 second, set render to true
-        }.bind(this), 7000)
+        }.bind(this), 4000)
       }
     render(){
         let renderContainer = false //By default don't render anything
@@ -192,7 +192,7 @@ class LoadD3 extends React.Component{
     componentDidMount() {
         setTimeout(function() { //Start the timer
             this.setState({render: true}) //After 1 second, set render to true
-        }.bind(this), 8000)
+        }.bind(this), 4500)
       }
     render(){
         let renderContainer = false //By default don't render anything
@@ -215,7 +215,7 @@ class LoadWOW extends React.Component{
     componentDidMount() {
         setTimeout(function() { //Start the timer
             this.setState({render: true}) //After 1 second, set render to true
-        }.bind(this), 9000)
+        }.bind(this), 5000)
       }
     render(){
         let renderContainer = false //By default don't render anything
