@@ -1,3 +1,5 @@
+//The icons are seperated into different components since they need different delay.
+
 class LoadHTML extends React.Component{
     constructor(props){
         super(props);
@@ -228,6 +230,7 @@ class LoadWOW extends React.Component{
     }
 }
 
+//Render all icons
 ReactDOM.render(<LoadHTML />, document.getElementById('htmlicon'));
 ReactDOM.render(<LoadCSS />, document.getElementById('cssicon'));
 ReactDOM.render(<LoadJS />, document.getElementById('jsicon'));

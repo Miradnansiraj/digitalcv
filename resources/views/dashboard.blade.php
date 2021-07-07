@@ -22,6 +22,7 @@
                     <div class="col-6" ><div id="timediv"></div></div>
                     <div class="col-sm">
                         <div class="row align-items-center text-right">
+                          <!-- The name is loaded in controller because initially it was planned to be fetched from database-->
                             <div class="col-sm  justify-content-end wow bounceIn"><h1>{{$name}}</h1></div>
                             <div class="col-sm">
                                 <img src="{{URL('/images/me.jpeg')}}" class="img-thumbnail rounded-circle border-dark float-left zoomable" 
@@ -77,10 +78,9 @@
         <div class="container-fluid p-2 mb-6">
             <div class="card rounded shadow-sm p-4 h-100">
                 <h1 class="text-center">My Experience</h1>
-                <!-- Timeline -->
-                
             </div>
         </div>
+        <!-- Timeline -->
         <div class="container-fluid">
             <div class="timeline">
                 <div class="container right wow bounceInRight">
