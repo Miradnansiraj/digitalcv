@@ -1,5 +1,17 @@
 <?php
 
+use Jenssegers\Agent\Agent as Agent;
+$Agent = new Agent();
+// agent detection influences the view storage path
+if ($Agent->isMobile()) {
+    // you're a mobile device
+    $viewPath = resource_path('views/mobile');
+} else {
+    // you're a desktop device, or something similar
+    $viewPath = resource_path('views');
+}
+    
+
 return [
 
     /*
@@ -12,11 +24,15 @@ return [
     | the usual Laravel view path has already been registered for you.
     |
     */
-
+	'paths' => array($viewPath),
+	
+	/*
+	old return
     'paths' => [
         resource_path('views'),
     ],
-
+	*/
+	
     /*
     |--------------------------------------------------------------------------
     | Compiled View Path
