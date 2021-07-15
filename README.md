@@ -1,6 +1,7 @@
 ## About This Project
 
-This Project is written in laravel framework, using bootstrap, react, javascript and PHP.
+This project shows a site that shows all my skills and past experiences. 
+The Project is written in laravel framework, using bootstrap, react, javascript and PHP.
 
 ## Requirements to view project
 
